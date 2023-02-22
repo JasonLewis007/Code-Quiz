@@ -8,11 +8,11 @@ var ViewHighScoreEl = document.getElementById("view-high-scores")
 var listHighScoreEl = document.getElementById("high-score-list")
 var correctEl = document.getElementById("correct")
 var wrongEl = document.getElementById("wrong")
-//buttons
+//buttons elements
 var btnStartEl = document.querySelector("#start-game");
 var btnGoBackEl = document.querySelector("#go-back")
 var btnClearScoresEl = document.querySelector("#clear-high-scores")
-//questions/answers element
+//questions/answers elements
 var questionEl = document.getElementById("question")
 var answerbuttonsEl = document.getElementById("answer-buttons")
 var timerEl = document.querySelector("#timer");
@@ -24,7 +24,6 @@ timerEl.innerText = 0;
 //High Score Array
 var HighScores = [];
 
- //assign array details for questions 
 var arrayShuffledQuestions
 var QuestionIndex = 0
 

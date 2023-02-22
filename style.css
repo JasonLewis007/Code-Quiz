@@ -4,22 +4,22 @@
   
   :root {
     --primary: #0a0808c5;
-    --secondary:blue;
+    --secondary:rgb(123, 123, 225);
     --tertiary: red;
     --white: rgb(255, 255, 255);
 
   }
 
-
+/*body styling*/
   body {
     background: antiquewhite;
-    color: var(--secondary);
+    color: var(--primary);
     margin: 0;
     padding: 0;
     font-family: sans-serif;
   }
   
-  /* Header */
+  /* Header styling */
   header {
       display: flex;
       justify-content: space-between;
@@ -47,7 +47,7 @@
       padding-right: 20px;
   }
 
-  /*Main content */
+  /*Main css styling */
 .container {
       padding: 20px;
       flex-direction: column;
@@ -180,7 +180,7 @@
     text-align: center; 
     padding-top: 5px;
     background-color: cyan;
-    
+
 }
 
 /* List for High Scores */
