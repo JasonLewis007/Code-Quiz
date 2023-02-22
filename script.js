@@ -216,7 +216,7 @@ score: score
 HighScores.push(HighScore);
 HighScores.sort((a, b) => {return b.score-a.score});
 
-//clear visibile list to resort
+//clear list
 while (listHighScoreEl.firstChild) {
  listHighScoreEl.removeChild(listHighScoreEl.firstChild)
 }
@@ -231,14 +231,10 @@ listHighScoreEl.appendChild(highscoreEl);
 saveHighScore();
 displayHighScores();
 
-}
-//save high score
-var saveHighScore = function () {
-  localStorage.setItem("HighScores", JSON.stringify(HighScores))
-      
-}
 
-//load values/ called on page load
+    
+
+
 var loadHighScore = function () {
   var LoadedHighScores = localStorage.getItem("HighScores")
       if (!LoadedHighScores) {
