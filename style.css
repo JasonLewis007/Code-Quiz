@@ -10,6 +10,7 @@
 
   }
 
+
   body {
     background: antiquewhite;
     color: var(--secondary);
@@ -24,6 +25,7 @@
       justify-content: space-between;
       margin: auto;
       width: 85%;
+      background-color: cyan;
   }
 
   #view-high-scores:hover {
